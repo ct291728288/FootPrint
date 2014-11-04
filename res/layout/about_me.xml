@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/table4" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:text="足迹app简介"
+        android:textColor="@color/gray"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="21dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:text="    足迹是一款集行程记录、行程回放、实时定位功能于一体的，基于百度SDK的android应用程序。首次使用时，进入“开始记录”选项卡，选择记录模式后，点击开关开始行程记录。\n    完毕后，再次点击开关关闭记录。此时，在“足迹历史”选项卡下，会产生以当日日期为标题的TXT的记录文件，单击打开，即可回放当日记录行程。\n    “当前定位”选项卡，用于实时定位当前位置。"
+        android:textColor="@color/gray" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="作者本人照乱入"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/gray"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/textView3"
+        android:src="@drawable/aboutme" />
+
+</RelativeLayout>

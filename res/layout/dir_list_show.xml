@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?> <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+			android:layout_width="fill_parent" 
+			android:layout_height="fill_parent" 
+			android:orientation="vertical"
+			android:background="@drawable/table2" > 
+
+	<TextView
+	    android:id="@+id/Txt_Path"
+	    android:layout_width="fill_parent"
+	    android:layout_height="30dp"
+	    android:text="行程记录文件列表"
+	    android:textSize="20sp" 
+	    android:gravity="center"
+	    android:textStyle="bold"
+	    android:textColor="@color/gray"/>
+ 
+	<ListView 
+		android:id="@+id/List_View" 
+		android:layout_width="match_parent" 
+		android:layout_height="wrap_content" > 
+	</ListView> 
+</LinearLayout> 
